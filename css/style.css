@@ -1,0 +1,98 @@
+/* common css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+/* ----------- */
+
+/* header  */
+header {
+    padding: 20px 0;
+}
+
+.nav-link {
+    color: #4F5665;
+    margin-right: 9px;
+}
+
+.nav-link:hover {
+    color: #0B132A;
+}
+
+.logo-img {
+    height: 30px;
+    width: auto;
+}
+
+.nav-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-primary {
+    color: #F53838;
+    font-weight: 600;
+    border: 1px solid #F53838;
+    padding: 6px 20px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.btn-primary:hover {
+    background: #F53838;
+    color: #fff;
+}
+
+.btn-secondary {
+    color: #0B132A;
+    font-weight: 600;
+    padding: 6px 20px;
+    border: 1px solid transparent;
+    transition: 0.5s;
+}
+
+.btn-secondary:hover {
+    color: #F53838;
+    border: 1px solid #F53838;
+    border-radius: 20px;
+}
