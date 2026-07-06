@@ -56,6 +56,22 @@
     .pricing-grid {
         flex-direction: column;
     }
+
+    .network-section {
+        padding: 4rem 0;
+    }
+
+    .network-header {
+        margin-bottom: 3.5rem;
+    }
+
+    .network-header h2 {
+        font-size: 1.85rem;
+    }
+
+    .partner-brands-row {
+        justify-content: center;
+    }
 }
 
 /* Extra small devices  */
