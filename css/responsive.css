@@ -52,6 +52,10 @@
     .features-list-content {
         padding-left: 0;
     }
+
+    .pricing-grid {
+        flex-direction: column;
+    }
 }
 
 /* Extra small devices  */
