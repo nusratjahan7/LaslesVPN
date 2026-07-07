@@ -72,6 +72,28 @@
     .partner-brands-row {
         justify-content: center;
     }
+
+    .cta-box {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 30px;
+    }
+
+    .cta-text-side {
+        margin-bottom: 30px;
+    }
+
+    .cta-text-side h2 {
+        font-size: 26px;
+    }
+
+    .btn-subscribe {
+        padding: 14px 50px;
+    }
+
+    .footer-section {
+        padding: 130px 0 40px 0;
+    }
 }
 
 /* Extra small devices  */
